@@ -9,6 +9,9 @@ Only signed release APKs are published here, under the [Releases](../../releases
 > [!IMPORTANT]
 > [**JOIN US ON DISCORD TO RECEIVE SUPPORT, HELP THE COMMUNITY AND FOLLOW THE APP DEVELOPMENT**](https://discord.gg/uCUK55nJ5v)
 
+> [!NOTE]
+> **MOTO-HUB for iOS is ready for testing.** Places in the beta are handed out one at a time, so it is not downloadable from this page. [**Join us on Discord**](https://discord.gg/uCUK55nJ5v) and ask for iOS beta access.
+
 ## What MOTO-HUB ADVANCED adds
 
 MOTO-HUB (the open-source app) owns the connection to the motorcycle: pairing, the T-Box
