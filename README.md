@@ -67,10 +67,15 @@ by that switch.
 
 ## Status
 
-MOTO-HUB is an experimental proof-of-concept, not a production-grade product. It has been built
-and tested with a CFMOTO 700MT-ADV dashboard. Behavior may differ on other motorcycles, T-Box
-firmware versions, or phones. Do not depend on it as your only source of critical navigation
-information. Plan your route before riding, and use the software at your own risk.
+MOTO-HUB is an experimental proof-of-concept, not a production-grade product. Day-to-day
+development happens on a CFMOTO 700MT-ADV dashboard, but the app is not CFMOTO-only: it works
+with the EasyConn / Carbit dashboard stack many manufacturers license — Voge, Zontes, Moto Morini
+(MotoFun), Benelli TRK 702 / 702X, QJ Motor Fort 4.0 and Morbidelli / MBP T1002V among them. See
+[Supported Motorcycles](https://github.com/vincenzobpt/MOTO-HUB#supported-motorcycles).
+
+Behavior may differ on other motorcycles, T-Box firmware versions, or phones. Do not depend on it
+as your only source of critical navigation information. Plan your route before riding, and use the
+software at your own risk.
 
 ## License
 
