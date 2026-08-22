@@ -10,7 +10,7 @@
 [![Downloads](https://img.shields.io/github/downloads/vincenzobpt/MOTO-HUB-PRO-releases/total?color=e10600)](https://github.com/vincenzobpt/MOTO-HUB-PRO-releases/releases)
 [![Requires MOTO-HUB](https://img.shields.io/badge/requires-MOTO--HUB-2ea44f)](https://github.com/vincenzobpt/MOTO-HUB)
 [![Android 14+](https://img.shields.io/badge/Android-14%2B-3DDC84?logo=android&logoColor=white)](#installation)
-[![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/uCUK55nJ5v)
+[![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/jYv7Z2chtP)
 
 <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/tft-ride-dashboard.png" alt="MOTO-HUB ADVANCED Ride Dashboard on the motorcycle TFT" width="700">
 
@@ -31,7 +31,7 @@
 
 **Every rider here is on Discord** — support when a dashboard misbehaves, help getting your bike working, early builds, and the place where the next features get decided.
 
-[![Join the MOTO-HUB Discord](https://img.shields.io/badge/JOIN%20THE%20MOTO--HUB%20DISCORD-support%20·%20community%20·%20new%20builds-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uCUK55nJ5v)
+[![Join the MOTO-HUB Discord](https://img.shields.io/badge/JOIN%20THE%20MOTO--HUB%20DISCORD-support%20·%20community%20·%20new%20builds-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jYv7Z2chtP)
 
 </div>
 
@@ -150,7 +150,7 @@ Behavior may differ on other motorcycles, T-Box firmware versions, or phones. Do
 
 <div align="center">
 
-[![Discord](https://img.shields.io/badge/JOIN%20US%20ON%20DISCORD-support%20·%20community%20·%20development-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/uCUK55nJ5v)
+[![Discord](https://img.shields.io/badge/JOIN%20US%20ON%20DISCORD-support%20·%20community%20·%20development-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/jYv7Z2chtP)
 
 </div>
 
