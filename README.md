@@ -125,9 +125,22 @@ ADVANCED contains no GPL-3.0/AGPL-3.0 code of its own. It reaches MOTO-HUB's T-B
 1. Install [MOTO-HUB](https://github.com/vincenzobpt/MOTO-HUB/releases/latest) first and pair it with your T-Box.
 2. Download the ADVANCED APK with the **same version number** from [Releases](../../releases).
 3. Enable "Install unknown apps" for your browser or file manager when Android asks.
-4. Install the ADVANCED APK.
+4. Install the ADVANCED APK (blocked by Play Protect? [see below](#app-blocked-to-protect-your-device--google-play-protect)).
 
 Both apps can check for updates themselves and will offer the matching release. ADVANCED requires **Android 14 or newer** (MOTO-HUB itself runs on Android 12+).
+
+### "App blocked to protect your device" — Google Play Protect
+
+On some phones Play Protect refuses the install with only a **Got it** button. **This is not a malware detection.** Google blocks every app installed from a browser, messaging app or file manager if it asks for notification access or accessibility. ADVANCED uses notification access for the Now Playing widget, and it stays off until you grant it yourself.
+
+To install anyway:
+
+1. Open the **Play Store**, tap your profile picture, then **Play Protect** → ⚙️ (top right).
+2. Turn off **Scan apps with Play Protect**.
+3. Install the ADVANCED APK.
+4. Go back and turn **Scan apps with Play Protect** on again.
+
+If an update is blocked the same way, repeat these steps.
 
 ## Privacy
 
