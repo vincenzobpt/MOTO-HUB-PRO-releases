@@ -1,14 +1,19 @@
+> [!CAUTION]
+> **MOTO-HUB ADVANCED is deprecated and no longer developed. 1.1.119 is its last release.**
+> It is replaced by **[MOTO-HUB ADV-SOLO](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases)**: one free app that does the work of ADVANCED and MOTO-HUB CORE together.
+> Already using ADVANCED? Update it, and it walks you to ADV-SOLO, which brings over your motorcycles, rides, places, keys and settings.
+
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/logo.png" alt="MOTO-HUB ADVANCED logo" width="120">
 
 # MOTO-HUB ADVANCED
 
-**The free companion app that turns your motorcycle's TFT into a full riding computer.**
+**Deprecated. Replaced by [MOTO-HUB ADV-SOLO](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases).**
 
 [![Latest release](https://img.shields.io/github/v/release/vincenzobpt/MOTO-HUB-PRO-releases?label=release&color=e10600)](https://github.com/vincenzobpt/MOTO-HUB-PRO-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/vincenzobpt/MOTO-HUB-PRO-releases/total?color=e10600)](https://github.com/vincenzobpt/MOTO-HUB-PRO-releases/releases)
-[![Requires MOTO-HUB](https://img.shields.io/badge/requires-MOTO--HUB-2ea44f)](https://github.com/vincenzobpt/MOTO-HUB)
+[![Deprecated](https://img.shields.io/badge/status-deprecated-lightgrey)](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases)
 [![Android 14+](https://img.shields.io/badge/Android-14%2B-3DDC84?logo=android&logoColor=white)](#installation)
 [![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/jYv7Z2chtP)
 
@@ -19,11 +24,9 @@
 
 <br>
 
-[![Download MOTO-HUB ADVANCED](https://img.shields.io/badge/Download%20MOTO--HUB%20ADVANCED-free-e10600?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vincenzobpt/MOTO-HUB-PRO-releases/releases/latest)
-&nbsp;
-[![Get MOTO-HUB first](https://img.shields.io/badge/Need%20MOTO--HUB%20first%3F-get%20it%20here-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vincenzobpt/MOTO-HUB/releases/latest)
+[![Get MOTO-HUB ADV-SOLO](https://img.shields.io/badge/Get%20MOTO--HUB%20ADV--SOLO-the%20app%20that%20replaces%20ADVANCED-e10600?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases/releases/latest)
 
-<sub>On the release page, expand **Assets** and download the file ending in `.apk`.</sub>
+<sub>The rest of this page describes ADVANCED as it was. Everything here, and more, is in ADV-SOLO.</sub>
 
 <br>
 
@@ -116,6 +119,9 @@ ADVANCED hides one more toy: a complete **OBD-II diagnostics suite**, tucked beh
 ADVANCED contains no GPL-3.0/AGPL-3.0 code of its own. It reaches MOTO-HUB's T-Box transport and Android Auto receiver exclusively through a Binder IPC bridge exposed by the MOTO-HUB app, which is why the two are licensed differently.
 
 ## Installation
+
+> [!CAUTION]
+> **Don't install ADVANCED on a new phone.** Install [MOTO-HUB ADV-SOLO](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases/releases/latest) instead. The steps below are kept only for riders updating an existing ADVANCED to its last release, so it can move them to ADV-SOLO.
 
 > [!IMPORTANT]
 > **MOTO-HUB must be installed for ADVANCED to work**, and both must be the **same version**.
