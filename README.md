@@ -16,17 +16,20 @@
 [![Deprecated](https://img.shields.io/badge/status-deprecated-lightgrey)](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases)
 [![Android 14+](https://img.shields.io/badge/Android-14%2B-3DDC84?logo=android&logoColor=white)](#installation)
 [![Discord](https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.gg/FzhXZtPhC8)
+[![Website](https://img.shields.io/badge/website-motohub.techub.eu-111111)](https://motohub.techub.eu)
 
-<img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/tft-ride-dashboard.png" alt="MOTO-HUB ADVANCED Ride Dashboard on the motorcycle TFT" width="700">
+<img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases/main/media/phone-dash-visor.webp" alt="MOTO-HUB ADV-SOLO: the Visor Ride Dashboard full screen on a phone" width="700">
+<br>
+<sub>MOTO-HUB ADV-SOLO, the app that replaces ADVANCED: the Ride Dashboard on the bike's TFT, or full screen on the phone.</sub>
 
-[MOTO-HUB](https://github.com/vincenzobpt/MOTO-HUB) (free, open source) connects your bike: pairing, the T-Box link, Android Auto, mirroring, handlebar buttons.<br>
-**ADVANCED** (free, this page) builds everything else on top of the rider's own GPS: a native **Ride Dashboard**, motorcycle **Navigation**, **Trips** with replay and analysis, **AI place discovery**, **group intercom** and more.
+ADVANCED was the free companion of [MOTO-HUB CORE](https://github.com/vincenzobpt/MOTO-HUB): CORE connected the bike, ADVANCED added the Ride Dashboard, navigation, trips and the rest.<br>
+**ADV-SOLO does all of it in one app**, with no CORE to install, and keeps getting new features.
 
 <br>
 
 [![Get MOTO-HUB ADV-SOLO](https://img.shields.io/badge/Get%20MOTO--HUB%20ADV--SOLO-the%20app%20that%20replaces%20ADVANCED-e10600?style=for-the-badge&logo=android&logoColor=white)](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases/releases/latest)
 
-<sub>The rest of this page describes ADVANCED as it was. Everything here, and more, is in ADV-SOLO.</sub>
+🌐 **[motohub.techub.eu](https://motohub.techub.eu)**: getting started, release notes and the community dashboard gallery.
 
 <br>
 
@@ -38,85 +41,15 @@
 
 </div>
 
-**This repository contains no source code.** MOTO-HUB ADVANCED's source is closed and private. Only signed release APKs are published here, under the [Releases](../../releases) tab.
+**This repository contains no source code.** MOTO-HUB ADVANCED's source is closed and private. Only signed release APKs are published here, under the [Releases](../../releases) tab; **1.1.119** is the last one.
 
-## What ADVANCED adds
+## Moving to ADV-SOLO
 
-| | [MOTO-HUB](https://github.com/vincenzobpt/MOTO-HUB) | MOTO-HUB ADVANCED |
-| --- | :---: | :---: |
-| T-Box pairing, garage, connection | ✅ | uses MOTO-HUB |
-| Android Auto on the TFT | ✅ | delegated to MOTO-HUB |
-| Screen mirroring | ✅ | ✅ |
-| Handlebar button control | ✅ | ✅ |
-| **Ride Dashboard** — native GPS scene on the TFT | — | ✅ |
-| **Navigation** — search, motorcycle routing, rich route preview | — | ✅ |
-| **Route intelligence** — weather along the route, fuel prices, speed cameras | — | ✅ |
-| **Trips** — full-telemetry recording, replay, analysis, GPX | — | ✅ |
-| **Riding Coach** — post-ride AI evaluation | — | ✅ |
-| **AI place discovery** | — | ✅ |
-| **Group intercom** — rider-to-rider voice | — | ✅ |
-| **Audio notes** pinned to your trips | — | ✅ |
-| **OBD-II diagnostics suite** — hidden somewhere in the app 🤫 | — | 🥚 |
+1. **Update ADVANCED to 1.1.119**, the last release. It shows you the way to ADV-SOLO.
+2. **Install [ADV-SOLO](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases/releases/latest).** On first launch it brings over your motorcycles, rides, audio notes, places, keys and settings from ADVANCED.
+3. **Remove ADVANCED and CORE** when ADV-SOLO asks. Android Auto is a module in ADV-SOLO, one tap away in **Settings ▸ Modules**.
 
-### 🏍️ Ride Dashboard
-
-A native, configurable riding scene rendered straight on the TFT: GPS speed, live map, trip stats, weather, phone status — every panel is a widget you choose, and panels can rotate through a carousel. The main panel is yours too: put the **live map** there, run **Android Auto embedded** inside it, or switch it to a full **OBD gauge cluster** with live engine data and gear estimation (ELM327 Bluetooth adapter required). Turn-by-turn guidance from Waze or Google Maps shows up in the Navigation widget.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/tft-dashboard-aa.png" alt="Android Auto embedded inside the Ride Dashboard map panel" width="560">
-</div>
-
-### 🗺️ Navigation, built for motorcycles
-
-Search, motorcycle routing (including *curvy roads*), waypoints, and a route preview that is a full briefing: **where the curves are** and what the twisty line costs you against the fast one, **the shape of the ride** (ascent, turns, elevation profile), **weather along the route** (rain cells with the time you'll meet them, crosswind, ice risk), **live fuel prices** on your path in 🇮🇹 🇪🇸 🇫🇷 🇵🇹, **speed camera alerts** (off by default, disabled where the law forbids them), and **Mapillary street-level imagery** with a tap on the route line.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-nav-preview-1.png" alt="Route preview showing where the curves are and the Fast or Piega route choice" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-nav-preview-2.png" alt="Route briefing with ascent, turns, elevation profile and petrol prices on the route" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-nav-preview-3.png" alt="Weather along the route with temperature and crosswind at each stage" width="230">
-  <br>
-  <sub>Where the curves are and what they cost you in time &middot; ascent, turns, elevation and petrol on the way &middot; the weather you will actually meet.</sub>
-</div>
-
-### 📈 Trips — record, relive, improve
-
-Full sensor telemetry on every ride: replay it on the map, in a **3D chase-cam POV**, or as a **Google Earth KMZ** flyover; analyze speed, altitude, lean angle and G-forces; get a **Riding Coach** AI evaluation; pin **audio notes** to the exact point of the trip; export GPX.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-trips-archive.png" alt="Trips archive" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-trip-replay.png" alt="Trip replay in 3D POV" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-trip-analysis.png" alt="Post-ride telemetry analysis" width="230">
-</div>
-
-### 🤖 AI place discovery &nbsp;·&nbsp; 🎙️ Group intercom
-
-Ask for "a scenic pass with a café at the top" and let the AI tab rank real OpenStreetMap places — bring your own OpenAI-compatible API key, stored encrypted on the phone. And when you ride with a friend, **group intercom** carries voice between two phones over the rider's own hotspot — no accounts, no servers.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-ai.png" alt="AI place discovery" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-intercom.png" alt="Group intercom" width="230">
-</div>
-
-### 🥚 …and one secret left to find
-
-ADVANCED hides one more toy: a complete **OBD-II diagnostics suite**, tucked behind a door that appears on no menu. How to open it stays a secret — but riders who find it get **live engine data** (revs, throttle, load, temperatures from a standard ELM327 Bluetooth adapter), **fuel & air** readings (trims, oxygen sensors, manifold, timing), **stored trouble codes** explained by a built-in catalogue, and a **full scan** of every PID your motorcycle supports, shareable as a report.
-
-<div align="center">
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-obd-live-data-1.png" alt="Live data: engine speed, throttle, load and temperatures with one-minute traces" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-obd-live-data-2.png" alt="Fuel and air: fuel trims, oxygen sensors, manifold pressure and timing" width="230">
-  &nbsp;
-  <img src="https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB/main/media/phone-obd-live-data-3.png" alt="Full scan: every PID the vehicle claims to support, answered and logged" width="230">
-  <br>
-  <sub>Live data &middot; fuel and air &middot; full scan. No, we won't tell you where the door is. Happy hunting. 🔎</sub>
-</div>
-
-ADVANCED contains no GPL-3.0/AGPL-3.0 code of its own. It reaches MOTO-HUB's T-Box transport and Android Auto receiver exclusively through a Binder IPC bridge exposed by the MOTO-HUB app, which is why the two are licensed differently.
+Everything ADVANCED did is in ADV-SOLO, plus what came after it, such as the Ride Dashboard full screen on the phone, community dashboards, Bluetooth handlebar remotes and an engine page for every ride. The full list is on the [ADV-SOLO page](https://github.com/vincenzobpt/MOTO-HUB-ADV-SOLO-releases).
 
 ## Installation
 
@@ -160,9 +93,7 @@ Like MOTO-HUB, official ADVANCED releases report **crashes and errors to Sentry*
 
 ## Status
 
-MOTO-HUB is an experimental proof-of-concept, not a production-grade product. Day-to-day development happens on a CFMOTO 700MT-ADV dashboard, but the app is not CFMOTO-only: riders have confirmed it on Benelli TRK 502 / 702 / 702X, Voge DS800X and 800 Rally, Zontes 368E, QJ Motor SRT 550 and CFMOTO 800MT and 675SRR, with more models partly working or still untested. The model-by-model table lives on the MOTO-HUB page — see [Supported Motorcycles](https://github.com/vincenzobpt/MOTO-HUB#supported-motorcycles).
-
-Behavior may differ on other motorcycles, T-Box firmware versions, or phones. Do not depend on it as your only source of critical navigation information. Plan your route before riding, and use the software at your own risk.
+MOTO-HUB ADVANCED is no longer developed: it receives no fixes and no new features. MOTO-HUB was always an experimental proof-of-concept, not a production-grade product. Do not depend on it as your only source of critical navigation information, and use the software at your own risk.
 
 > [!NOTE]
 > **Riding with an iPhone?** MOTO-HUB for iOS is available now — install it through AltStore Classic or sideload the IPA from [its own releases page](https://github.com/vincenzobpt/MOTO-HUB-IOS-releases). Requires iOS 17 or later.
@@ -175,6 +106,10 @@ Behavior may differ on other motorcycles, T-Box firmware versions, or phones. Do
 
 </div>
 
+News, release notes and the dashboard gallery are on **[motohub.techub.eu](https://motohub.techub.eu)**.
+
 ## License
 
-MOTO-HUB ADVANCED is proprietary, closed-source software. Distribution here does not grant any license to the source code. MOTO-HUB itself remains fully open source under AGPL-3.0.
+MOTO-HUB ADVANCED is proprietary, closed-source software. Distribution here does not grant any license to the source code. MOTO-HUB CORE itself remains fully open source under AGPL-3.0.
+
+ADVANCED contains no GPL-3.0/AGPL-3.0 code of its own. It reaches MOTO-HUB's T-Box transport and Android Auto receiver exclusively through a Binder IPC bridge exposed by the MOTO-HUB app, which is why the two are licensed differently.
